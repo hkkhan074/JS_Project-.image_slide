@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 450px;
+    width: 450px;
+}
+.btn button{
+    height:40px;
+    width: 249px;
+    font-size:20px;
+    background-color: aquamarine;
+    border: none;
+}
+.btn{
+    margin-top: 10px;
+}
+.btn button:hover{
+    background-color: aqua;
+    transition: 0.7s all;
+}
+
+.btn button:active{
+    background-color: rgb(0, 89, 255);
+    transition: 0.7s all;
+}
